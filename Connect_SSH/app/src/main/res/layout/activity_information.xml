@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information"
+    android:background="@drawable/wallpaper"
+    >
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="250dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="140dp"
+        android:text="Aplikacja Do Zdalnego Sterowania Platformą Mobilną.
+        \nGłówne Funkcje Programu: \n-Sterowanie Manualne \n-Przesłanie obrazu \n-Sterowanie Autonomiczne \nAdres IP urządzenia połączonego: 192.168.0.2. Zmiana możliwa tylko w kodzie programu.
+        \nProjekt Zostaw Stworzony Na Potrzeby Pracy Inżynierskiej
+        \nAutor: Jakubowski Piotr"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="305dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:text="PODSTAWOWE INFORMACJE O PROGRAMIE"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

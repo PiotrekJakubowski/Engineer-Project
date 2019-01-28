@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Start">start</string>
+    <string name="Stop">stop</string>
+    <string name="ChangeActivity">stop</string>
+    <string name="connect">Connect</string>
+    <string name="title_activity_camera_live">cameraLive</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>
